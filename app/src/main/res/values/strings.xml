@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">Movies</string>
+  <string name="title">Project Gemini</string>
+  <string name="percent">59</string>
+  <string name="date">Jan 06,2022</string>
+  <string name="menu_Images">Subir Imagenes</string>
+  <string name="menu_Locate">Ubicación</string>
+
+  <string name="cap">Capturar Imagen</string>
+  <string name="upload">Seleccionar Imagen</string>
+  <string name="start">Empezar Servicio</string>
+  <string name="stop">Detener Servicio</string>
+  <string name="map">Ver Mapa</string>
+
+
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesFragment">
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.movies.fragment.MoviesFragment"
+        android:label="Heroes"
+        tools:layout="@layout/fragment_movies">
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.movies.fragment.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera" />
+    <activity
+        android:id="@+id/locationActivity"
+        android:name="com.example.movies.LocationActivity"
+        android:label="LocationFragment"
+        tools:layout="@layout/activity_location" />
+    
+</navigation>
