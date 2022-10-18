@@ -3,7 +3,6 @@ package com.example.movies
 import com.example.movies.Utils.MyUtils
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.movies.R
 import com.example.movies.data.remote.Ubication
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -20,12 +19,13 @@ class UbicacionesMapaActivity : AppCompatActivity(), Ubication.UbicacionDAOInter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_location)
+        setContentView(R.layout.fragment_map)
 
 
         val mapFragment = supportFragmentManager.findFragmentById(R.id.fragmentMap) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
+
 
 
     //AQUI OBTENEMOS LAS UBICACIONES REGISTRADAS EN LA BASE DE FIREBASE
