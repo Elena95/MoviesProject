@@ -161,7 +161,7 @@ class LocationActivity : AppCompatActivity() {
 
         when (requestCode) {
             MY_PERMISSIONS_REQUEST_LOCATION -> {
-                // Si se cancela la solicitud, la matrix recult estara vacia
+                // Si se cancela la solicitud, la matrix result estara vacia
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
                    //Se obtuevieron los permisos de ubicacion en primer plano

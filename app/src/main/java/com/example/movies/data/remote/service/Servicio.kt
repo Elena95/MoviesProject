@@ -75,7 +75,6 @@ class Servicio : Service() {
             Toast.makeText(this, "Service starting its task", Toast.LENGTH_SHORT).show()
             isServiceStarted = true
             mContext=this
-         //   setServiceState(this, ServiceState.STARTED)
 
             // we need this lock so our service gets not affected by Doze Mode
             wakeLock =
